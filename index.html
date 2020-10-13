@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Menu Responsive</title>
+    <link rel="stylesheet" href="css/micss.css">
+
+</head>
+
+
+<body>
+    
+    <section class="banner" id="sec">
+
+        <!-- Logo + Botón Menu de 2 Rayas-->
+        <header>
+            <!-- Logo -->
+            <a href="#" class="logo">MINIMAL</a>
+
+            <!-- Botón Menu de 2 Rayas -->
+            <div id="toggle" onclick="toggle();"></div> <!-- Cuando se pulsa, añade/quita la clase "active" a <section> -->
+        </header>
+
+
+        <!-- Texto + Botón "Know More" -->
+        <div class="content">
+            <!-- Texto -->
+            <h2>Web Minimal<br>Design<span>Minimal</span></h2>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+            </p>
+
+            <!-- Botón "Know More" -->
+            <a href="#">Starting...</a>
+        </div>
+
+
+        <!-- Iconos Redes Sociales -->
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+            <li><a href="#"><img src="img/linkedin.png"></a></li>
+        </ul>
+
+    </section>
+
+
+    <!-- Menu azul que sale por la derecha al pulsar el botón menu de 2 rayas -->
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Internet</a></li>
+            <li><a href="#">Television</a></li>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Radio</a></li>
+            <li><a href="#">Computers</a></li>
+            <li><a href="#">Routers</a></li>
+        </ul>
+    </div>
+
+
+    <!--    
+        Para añadir/quitar la clase "active" a <section>.
+        Esto es para determinar cuándo se ha pulsado el botón de las 2 rayas. 
+
+        También añade la clase "active" al menu de navegación, para saber cuándo mostrarlo.
+    -->
+    <script>
+        function toggle() {
+            const sec = document.getElementById('sec');
+            const nav = document.getElementById('navigation');
+
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+
+
+
+</body>
+
+
+</html>
+
+
