@@ -8,4 +8,4 @@ Feel free to use it in your web page.
 
 Example:
 
-[![](https://github.com/fernangon/Nice-Page-Live-Menu/blob/main/img/bg.jpg)](http://https://github.com/fernangon/Nice-Page-Live-Menu/blob/main/img/bg.jpg)
+[![](https://github.com/fernangon/Nice-Page-Live-Menu/blob/main/example.jpg)](http://https://github.com/fernangon/Nice-Page-Live-Menu/blob/main/example.jpg)
